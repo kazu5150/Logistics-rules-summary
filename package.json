@@ -19,3 +19,12 @@
     "gh-pages": "^6.1.1"
   }
 }
+{
+  "homepage": "https://kazu5150.github.io/logistics-rules-summary",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
